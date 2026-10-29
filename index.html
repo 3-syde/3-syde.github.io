@@ -2,10 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting...</title>
+</head>
+<body>
+    <p>Redirecting...</p>
 
+    <script>
+        const hostname = window.location.hostname;
+
+        if (hostname === "archives.3-syde.com") {
+            window.location.replace(
+                "https://drive.google.com/drive/folders/1n4xhVat5ZELJO8Ex9Ha78_8KI27u2nFB?usp=drive_link"
+            );
+        } else {
+            window.location.replace(
+                "https://www.youtube.com/@3-syde"
+            );
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+-->
     <!-- instant redirect -->
-    <meta http-equiv="refresh" content="0; url=https://www.youtube.com/@3-syde">
+<!--    <meta http-equiv="refresh" content="0; url=https://www.youtube.com/@3-syde">
 
     <script>
         window.location.replace("https://www.youtube.com/@3-syde");
@@ -14,3 +44,4 @@
 <body>
 </body>
 </html>
+-->
